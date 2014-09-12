@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>jboss7-all</groupId>
+        <artifactId>jboss7-all</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>jboss7-all</groupId>
+    <artifactId>jboss7-ejb</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <packaging>ejb</packaging>
+
+    <name>jboss7-ejb</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jboss.spec.javax.ejb</groupId>
+            <artifactId>jboss-ejb-api_3.1_spec</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+    </build>
+
+</project>
