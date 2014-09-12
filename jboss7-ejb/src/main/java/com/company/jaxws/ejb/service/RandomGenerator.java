@@ -1,6 +1,5 @@
 package com.company.jaxws.ejb.service;
 
-import javax.ejb.Remote;
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebService;
