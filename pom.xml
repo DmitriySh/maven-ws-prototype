@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -22,7 +22,7 @@
         <version.jboss.ws.api>2.0.2.Final</version.jboss.ws.api>
         <version.jboss.servlet.api>1.0.0.Final</version.jboss.servlet.api>
         <version.spring>3.1.1.RELEASE</version.spring>
-        <version.cglib>2.2.2</version.cglib>
+        <version.cglib-nodep>2.2.2</version.cglib-nodep>
     </properties>
 
     <dependencyManagement>
@@ -83,8 +83,8 @@
             </dependency>
             <dependency>
                 <groupId>cglib</groupId>
-                <artifactId>cglib</artifactId>
-                <version>${version.cglib}</version>
+                <artifactId>cglib-nodep</artifactId>
+                <version>${version.cglib-nodep}</version>
             </dependency>
 
         </dependencies>
